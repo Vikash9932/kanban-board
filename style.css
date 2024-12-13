@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar_container {
+  height: 70px;
+  background-color: #555;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filter_items {
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+  height: 40px;
+  width: 200px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.filter_item {
+  width: 30px;
+  height: 20px;
+}
+
+.red {
+  color: red;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.lightGreen {
+  background-color: lightgreen;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.black {
+  background-color: black;
+}
+
+.actions {
+  color: white;
+  background-color: #333;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 50px;
+  align-items: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.action:hover {
+  background-color: lightgreen;
+}
+
+.modal_container {
+  display: none;
+  height: 40vh;
+  width: 40vw;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  border: none;
+  height: 100%;
+  width: 80%;
+  background-color: #fffa9c;
+  font-size: 3rem;
+}
+
+.category_container {
+  width: 20%;
+  height: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.category {
+  width: 50px;
+  height: 30px;
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.ticket_container {
+  height: 10rem;
+  width: 150px;
+  background-color: coral;
+}
+
+.ticket_color {
+  height: 1rem;
+  width: 100%;
+}
+
+.ticket_id {
+  background-color: yellow;
+  height: 2rem;
+}
+
+.ticket_taskarea {
+  height: 5rem;
+}
+
+.ticket_lock {
+  height: 1rem;
+  align-self: flex-end;
+  justify-self: flex-end;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.active {
+  border: 3px solid red;
+}
